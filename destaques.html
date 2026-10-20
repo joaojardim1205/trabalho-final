@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Destaques | NovaCell</title>
+  <meta name="description" content="Confira os destaques da NovaCell: premium, intermediários, entrada, acessórios, promoções e lançamentos.">
+  <link rel="icon" type="image/png" href="img/favicon.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===================== HEADER / NAVBAR ===================== -->
+  <header class="site-header" id="topo">
+    <div class="header-inner container">
+      <a href="index.html" class="logo" aria-label="Página inicial">
+        <img src="img/logo.png" alt="Logo NovaCell">
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="navbar">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="navbar" id="navbar">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="quem-somos.html" class="nav-link">Quem Somos</a></li>
+          <li><a href="destaques.html" class="nav-link active">Destaques</a></li>
+          <li><a href="sac.html" class="nav-link">SAC</a></li>
+          <li><a href="localizacao.html" class="nav-link">Localização</a></li>
+          <li><a href="fale-conosco.html" class="nav-link">Fale Conosco</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===================== HERO DA PÁGINA ===================== -->
+  <section class="page-hero">
+    <div class="container">
+      <span class="eyebrow">Catálogo</span>
+      <h1>Destaques</h1>
+      <p class="breadcrumb"><a href="index.html">Home</a> / Destaques</p>
+    </div>
+  </section>
+
+  <!-- ===================== CARROSSEL ===================== -->
+  <section class="carousel-section" aria-label="Destaques da loja">
+    <div class="carousel" id="carousel">
+      <div class="slides-wrapper">
+        <figure class="slide active"><img src="img/slide1.png" alt="Tecnologia que cabe na sua mão"></figure>
+        <figure class="slide"><img src="img/slide2.png" alt="Os lançamentos chegaram"></figure>
+        <figure class="slide"><img src="img/slide3.png" alt="Condições especiais toda semana"></figure>
+        <figure class="slide"><img src="img/slide4.png" alt="Assistência técnica de confiança"></figure>
+      </div>
+
+      <button class="carousel-btn carousel-btn--prev" aria-label="Slide anterior">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 5 8 12l7 7"/></svg>
+      </button>
+      <button class="carousel-btn carousel-btn--next" aria-label="Próximo slide">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 5l7 7-7 7"/></svg>
+      </button>
+
+      <div class="carousel-dots">
+        <span class="dot active"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CATEGORIAS EM DESTAQUE (FLEXBOX) ===================== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow">Organizado para você</span>
+        <h2>Principais categorias da loja</h2>
+        <p>Do topo de linha ao modelo de entrada, temos a opção certa para o seu bolso.</p>
+      </div>
+
+      <div class="columns-grid columns-grid--3">
+
+        <article class="highlight-card">
+          <img src="img/destaque-premium.png" alt="Smartphones Premium">
+          <div class="highlight-overlay">
+            <div>
+              <h3>Smartphones Premium</h3>
+              <p>O que há de mais avançado em performance e câmera.</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="highlight-card">
+          <img src="img/destaque-intermediario.png" alt="Smartphones Intermediários">
+          <div class="highlight-overlay">
+            <div>
+              <h3>Smartphones Intermediários</h3>
+              <p>Equilíbrio perfeito entre preço e desempenho.</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="highlight-card">
+          <img src="img/destaque-entrada.png" alt="Smartphones de Entrada">
+          <div class="highlight-overlay">
+            <div>
+              <h3>Smartphones de Entrada</h3>
+              <p>Ótimo custo-benefício para o uso do dia a dia.</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="highlight-card">
+          <img src="img/destaque-acessorios.png" alt="Acessórios">
+          <div class="highlight-overlay">
+            <div>
+              <h3>Acessórios</h3>
+              <p>Capas, películas, fones e carregadores originais.</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="highlight-card">
+          <img src="img/destaque-promocoes.png" alt="Promoções da Semana">
+          <div class="highlight-overlay">
+            <div>
+              <h3>Promoções da Semana</h3>
+              <p>Descontos especiais que mudam toda semana.</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="highlight-card">
+          <img src="img/destaque-lancamentos.png" alt="Lançamentos">
+          <div class="highlight-overlay">
+            <div>
+              <h3>Lançamentos</h3>
+              <p>Os modelos mais novos do mercado, recém-chegados.</p>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== RODAPÉ ===================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+
+        <div class="footer-col footer-brand">
+          <img src="img/logo-footer.png" alt="Logo NovaCell">
+          <p class="footer-tagline">Tecnologia que cabe na sua mão.</p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navegação</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="quem-somos.html">Quem Somos</a></li>
+            <li><a href="destaques.html">Destaques</a></li>
+            <li><a href="sac.html">SAC</a></li>
+            <li><a href="localizacao.html">Localização</a></li>
+            <li><a href="fale-conosco.html">Fale Conosco</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Redes Sociais</h4>
+          <div class="social-icons">
+            <a href="#" aria-label="Facebook" class="social-icon">
+              <img src="img/icone-facebook.png" alt="Facebook" width="18" height="18">
+            </a>
+            <a href="#" aria-label="Instagram" class="social-icon">
+              <img src="img/icone-instagram.png" alt="Instagram" width="18" height="18">
+            </a>
+            <a href="#" aria-label="WhatsApp" class="social-icon">
+              <img src="img/icone-whatsapp.png" alt="WhatsApp" width="18" height="18">
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 NovaCell. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
